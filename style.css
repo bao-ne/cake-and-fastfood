@@ -190,6 +190,8 @@ top: 0;
   object-fit: cover;
 }
 
+/* start- page menu */
+
 .menu-left{
   flex: 0 0 25%;
   color: #333;
@@ -275,6 +277,8 @@ top: 0;
   align-items: center;
   margin: 0 16px;
 }
+
+/* end- page menu */
 
 
 
