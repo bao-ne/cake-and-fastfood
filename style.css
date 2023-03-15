@@ -251,6 +251,7 @@ top: 0;
 
 .items-left:nth-child(1){
   margin: 60px 0;
+  width: 255px;
 }
 
 .items-left>.title:nth-child(1){
@@ -258,19 +259,29 @@ top: 0;
   padding: 12px ;
   border-top-right-radius: 24px;
   border-top-left-radius: 24px;
-  border: 1px solid #333;
+  border: .5px solid #333;
 }
 
 .items-left:nth-child(2){
   text-align: center;
+  width: 255px;
+}
+
+.items-left>a{
+  color: #333;
 }
 
 .child{
-  border: .5px solid #333;
+  display: flex;
+  align-items: center;
+  border-bottom: .5px solid #333;
+  border-left: .5px solid #333;
+  border-right: .5px solid #333;
   padding: 12px;
+  font-size: 20px;
 }
 
-.child:nth-child(2), .child:nth-child(4){
+.background-yellow4{
   background-color: var(--yellow4);
 }
 
@@ -284,12 +295,12 @@ top: 0;
 
 .start{
   padding:0 12px;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333;
+  border-left: .5px solid #333;
+  border-right: .5px solid #333;
 }
 
 .start:nth-child(6){
-  border-bottom: 1px solid #333;
+  border-bottom: .5px solid #333;
 }
 
 .menu-right{
@@ -308,17 +319,18 @@ top: 0;
 
 .container-items-right{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 40px;
 }
 
 .items-right{
   /* flex: 0 0 20%; */
-  width: 200px;
+  width: 180px;
   box-shadow: 0 0 20px gray;
   text-align: center;
   background-color: #f1f1f1;
   border-radius: 20px;
+  margin: 0 12px;
 }
 
 .css-border{
@@ -337,14 +349,23 @@ top: 0;
 
 /* end- page menu */
 
+
+
 /* start- menu single */
 .menu-single{
   background-color: #efefef;
   padding-top: 40px;
+  
+}
+
+.container-for-menusingle{
+  max-width: 880px;
+  margin: 0 auto;
 }
 
 .product{
   background-color: #ffff;
+  padding: 24px 0;
 }
 
 .box-product{
@@ -479,7 +500,7 @@ top: 0;
   font-size: 24px;
 }
 
-/* .mono{
+.mono{
   background-color: var(--yellow4);
   padding: 40px ;
 }
@@ -488,8 +509,13 @@ top: 0;
   position: relative;
 }
 
+/* .box-mono{
+  display: flex;
+} */
+
 .mono-img{
-  background-image: url('image/mono.png');
+  background-image: url('image/mono8.png');
+  height: 1000px;
 }
 
 .mono-items{
@@ -503,10 +529,28 @@ top: 0;
   position: absolute;
   top: 50px;
   left: 50px;
-} */
+}
+
+.mono-items:nth-child(2){
+  position: absolute;
+  right: 50px;
+  top: 70px;
+}
+
+.mono-items:nth-child(3){
+  position: absolute;
+  bottom: 80px;
+  left: 50px;
+}
+
+.mono-items:nth-child(4){
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
 
 .team{
-  background-color: var(--yellow4);
+  /* background-color: var(--yellow4); */
   padding: 40px 0;
 }
 
@@ -571,6 +615,12 @@ top: 0;
 
 /* aboutus- end */
 
-/*  */
+/* edit user start */
+
+
+
+/* edit user end */
+
+
 
 
